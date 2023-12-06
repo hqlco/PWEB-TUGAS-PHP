@@ -1,0 +1,59 @@
+body {
+  background-image: url(bg.jpg);
+  background-size: cover;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 40px;
+}
+
+div {
+  margin: 0 15%;
+}
+
+nav a {
+  font-weight: 500;
+  font-size: 18px;
+  color: white;
+  padding: 7px 15px;
+  text-decoration: none;
+  background-color: blue;
+  border-radius: 7px;
+}
+
+table {
+  border: black 3px solid;
+}
+
+th {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+td {
+  font-weight: 400;
+  font-size: 18px;
+}
+
+footer a {
+  font-weight: 500;
+  font-size: 18px;
+  color: white;
+  padding: 7px 15px;
+  text-decoration: none;
+  background-color: blue;
+  border-radius: 7px;
+}
+
+footer a:hover {
+  background-color: rgb(0, 0, 90);
+}
+
+footer p {
+  font-weight: 500;
+  font-size: 18px;
+}
+/* .btn{
+    margin: 10px auto;
+} */

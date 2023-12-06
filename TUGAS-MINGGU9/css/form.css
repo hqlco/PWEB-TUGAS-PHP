@@ -1,0 +1,82 @@
+body {
+  background-image: url(bg.jpg);
+  background-size: cover;
+}
+h1 {
+  font-weight: 700;
+  font-size: 50px;
+}
+form {
+  margin: 0 25%;
+}
+.form-group {
+  margin: 28px 0;
+}
+
+label {
+  font-weight: 700;
+  font-size: x-large;
+}
+input[type="text"] {
+  height: 40px;
+  text-indent: 10px;
+  font-size: medium;
+  font-weight: normal;
+}
+textarea {
+  height: 80px;
+  padding: 7px 10px;
+  font-size: medium;
+  font-weight: normal;
+}
+
+input[type="text"]::placeholder,
+textarea::placeholder {
+  font-size: medium;
+  font-weight: normal;
+}
+input[type="radio"] {
+  height: 15px;
+  width: 15px;
+  margin-right: 10px;
+}
+
+.radio {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+select {
+  height: 40px;
+  text-indent: 10px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+option {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+footer {
+  margin-top: 60px;
+}
+
+footer input,
+a {
+  font-weight: 500;
+  font-size: 20px;
+  color: rgb(22, 21, 21);
+  padding: 8px 15px;
+  text-decoration: none;
+  background-color: rgb(234, 255, 0);
+  border: rgb(212, 255, 0);
+  border-radius: 8px;
+  margin-bottom: 100px;
+}
+
+footer input:hover,
+a:hover {
+  background-color: rgb(23, 90, 0);
+  border: rgb(14, 160, 0);
+}
